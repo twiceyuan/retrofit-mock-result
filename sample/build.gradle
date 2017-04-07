@@ -40,5 +40,5 @@ dependencies {
     compile project(':core')
     annotationProcessor project(':processor')
 
-    // compile 'com.github.twiceyuan:RetrofitMockResult:325ae5b3c3'
+    compile 'com.github.twiceyuan:RetrofitMockResult:5f31d1f05f'
 }
