@@ -19,6 +19,10 @@ android {
     }
 }
 
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -35,4 +39,6 @@ dependencies {
 
     compile project(':core')
     annotationProcessor project(':processor')
+
+    compile 'com.github.twiceyuan:RetrofitMockResult:-SNAPSHOT'
 }
