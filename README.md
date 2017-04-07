@@ -50,9 +50,17 @@ api.api2().subscribe(); // 真实接口
 api.api3().subscribe(); // 模拟数据
 ```
 
-## TODO
+## Gradle
 
-上传 JitPack
+```
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+compile 'com.github.twiceyuan.RetrofitMockResult:processor:5f31d1f05f'
+compile 'com.github.twiceyuan.RetrofitMockResult:core:5f31d1f05f'
+```
 
 ## License
 
