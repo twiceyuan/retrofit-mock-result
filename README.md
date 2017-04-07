@@ -1,5 +1,7 @@
 # Retrofit Mock Result
 
+[![](https://jitpack.io/v/twiceyuan/RetrofitMockResult.svg)](https://jitpack.io/#twiceyuan/RetrofitMockResult)
+
 Retrofit Mock Api Manager，Retrofit 模拟网络请求接口结果工具。
 
 原理介绍：https://twiceyuan.com/2017/04/07/instantiating-an-abstract-class-in-java/
@@ -55,11 +57,10 @@ api.api3().subscribe(); // 模拟数据
 ## Gradle
 
 ```
+// 仓库添加
+maven { url 'https://jitpack.io' }
 
-repositories {
-    maven { url 'https://jitpack.io' }
-}
-
+// 依赖添加
 compile 'com.github.twiceyuan.RetrofitMockResult:processor:5f31d1f05f'
 compile 'com.github.twiceyuan.RetrofitMockResult:core:5f31d1f05f'
 ```
