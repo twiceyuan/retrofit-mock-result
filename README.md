@@ -1,6 +1,8 @@
-# RetrofitMockResult
+# Retrofit Mock Result
 
 Retrofit Mock Api Manager，Retrofit 模拟网络请求接口结果工具。
+
+原理介绍：https://twiceyuan.com/2017/04/07/instantiating-an-abstract-class-in-java/
 
 看了官方项目中的 https://github.com/square/retrofit/tree/master/retrofit-mock 模块，感觉写测试代码和配置都比较复杂，大多数时候我需要的是：
 
