@@ -56,12 +56,12 @@ api.api3().subscribe(); // 模拟数据
 
 ## Gradle
 
-```
+```groovy
 // 仓库添加
 maven { url 'https://jitpack.io' }
 
 // 依赖添加
-compile 'com.github.twiceyuan.RetrofitMockResult:processor:5f31d1f05f'
+annotationProcessor 'com.github.twiceyuan.RetrofitMockResult:processor:5f31d1f05f'
 compile 'com.github.twiceyuan.RetrofitMockResult:core:5f31d1f05f'
 ```
 
